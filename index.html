@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- meta datos -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Angel Sanchez">
+    <meta name="description" content="Portafolio de angel sanchez">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React, portafolio, pagina web, codigos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- estilos -->
+    <link rel="stylesheet" href="estyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="icon" href="imagenes/icono-blanco.svg" type="image/x-icon">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <!-- titulo -->
+    <title>portafolio con bootsrap 5</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light p-3">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-between align-items-center" id="navbar-toggler">
+                <a class="navbar-brand " href="#">
+                    <img src="imagenes/icono.png" width="50" alt="logo de la web">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#sobre-mi-link">Sobre mí</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#proyecto">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#testigos">Testimonios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#contactame">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section class="hero align-items-strech text-center d-flex flex-column align-items-center justify-content-center">
+            <div class="d-flex flex-column justify-content-center align-items-center p-4">
+                <img src="imagenes/imagenes-desarrolladores/desarrollador-ejemplo.svg" alt="" class="hero-imagen-desarrollador rounded-circle">
+                <h1 class="fs-1">Hola, soy Ángel Sánchez</h1>
+                <h2 class="fs-5">Desarrollo sitios web y escribo articulos sobre programación.</h2>
+            </div>
+        </section>
+        <section class="hero-2">
+            <div class="text-center">
+                <img src="imagenes/hero-inferior.svg" alt="laptop" class="img-fluid">
+            </div>
+        </section>
+        <section class="sobre-mi text-white bg-dark d-flex align-items-center justify-content-center" id="sobre-mi-link">
+            <div class="contenedor text-center">
+                <h2 class="seccion-titulo">Conoce a Ángel Sánchez</h2>
+                <p class="fs-5">Desarrollador Junior con gandes capacidades de poner su mente a volar con increibles diseños.</p>
+            </div>
+        </section>
+        <section class="experiencias p-5 text-black bg-white">
+            <div class="container text-center">
+                <div class="row shadow">
+                    <div class="cartas col-md-4 p-3 border border-2 d-flex flex-column align-items-center justify-content-evenly">
+                        <i class="bi bi-laptop fs-4 text-white bg-dark py-2 px-3 rounded-circle"></i>
+                        <p class="fs-4 fw-bold my-2" >Desarrollo Web</p>
+                        <p class="fs-5">soy un desarrollador web junior que con el paso del tiempo a tenido mucha curiosidad sobre este tema y que por su esfurzo esta logrando su sueño, Nunca te rindas como yo nunca lo hice</p>
+                        <div class="badge-contenedor fw-bold my-2 fs-4">
+                            <span class="badge bg-dark m-1">HTML</span>
+                            <span class="badge bg-dark m-1">CSS</span>
+                            <span class="badge bg-dark m-1">JavaScript</span>
+                            <span class="badge bg-dark m-1">React</span>
+                        </div>
+                    </div>
+                    <div class="cartas col-md-4 p-3 border border-2 d-flex flex-column align-items-center justify-content-evenly">
+                        <i class="bi bi-youtube fs-4 text-white bg-dark py-2 px-3 rounded-circle"></i>
+                        <p class="fs-4 fw-bold my-2">Contenido</p>
+                        <p class="fs-5">Aveces en mi tiempo libre me gusta subir contenido de lo que he aprendido y explicarselo a personas que estan pasando por lo que yo pase y hacerles en trabajo de que entiendan mejor.</p>
+                        <div class="badge-contenedor fw-bold my-2 fs-4">
+                            <span class="badge bg-dark m-1">Youtube</span>
+                            <span class="badge bg-dark m-1">Instagram</span>
+                            <span class="badge bg-dark m-1">TikTok</span>
+                        </div>
+                    </div>
+                    <div class="cartas col-md-4 p-3 border border-2 d-flex flex-column align-items-center justify-content-evenly">
+                        <i class="bi bi-book fs-4 text-white bg-dark py-2 px-3 rounded-circle"></i>
+                        <p class="fs-4 fw-bold my-2">Estudios</p>
+                        <p class="fs-5">Sigo estudiando y no dejare de estudiar por que esto me apasiona, ya sea en internet, una escuela, una universidad, o un curso nunca dejare mi sueño de ser un buen desarrollador web.</p>
+                        <div class="badge-contenedor fw-bold my-2 fs-4">
+                            <span class="badge bg-dark m-1">Platzi</span>
+                            <span class="badge bg-dark m-1">Youtube</span>
+                            <span class="badge bg-dark m-1">U . Americana</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="proyecto" class="proyectos  text-black bg-white text-center p-5">
+            <h2 class="text-capitalize">Mis Proyectos Recientes</h2>
+            <h3 class="text-capitalize fs-5">Aqui tienes algunos de mis proyectos recientes</h3>
+            
+            <div class="container text-center proyecto mx-auto">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto-contenedor position-relative">
+                            <img src="imagenes/proyecto1.png" alt="" class="imagen-proyecto w-100 h-100 d-block p-2 rounded-3">
+                            <div class="top-50 start-50 translate-middle position-absolute text-center overlay">
+                                <p class="mb-0 fw-bold fs-4">Proyecto 1</p>
+                                <div class="mt-2">
+                                    <a href="" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                                        <i class="bi bi-laptop text-black m-2 rounded-circle fs-1"></i>
+                                    </a>
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                                        <i class="bi bi-github text-black m-2 rounded-circle fs-1"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto-contenedor position-relative">
+                            <img src="imagenes/proyecto2.png" alt="" class="imagen-proyecto w-100 h-100 d-block p-2 rounded-3">
+                            <div class="top-50 start-50 translate-middle position-absolute text-center overlay">
+                                <p class="mb-0 fw-bold fs-4">Proyecto 2</p>
+                                <div class="mt-2">
+                                    <a href="" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                                        <i class="bi bi-laptop text-black m-2 rounded-circle fs-1"></i>
+                                    </a>
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                                        <i class="bi bi-github text-black m-2 rounded-circle fs-1"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto-contenedor position-relative">
+                            <img src="imagenes/proyecto3.png" alt="" class="imagen-proyecto w-100 h-100 d-block p-2 rounded-3">
+                            <div class="top-50 start-50 translate-middle position-absolute text-center overlay">
+                                <p class="mb-0 fw-bold fs-4">Proyecto 3</p>
+                                <div class="mt-2">
+                                    <a href="" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                                        <i class="bi bi-laptop text-black m-2 rounded-circle fs-1"></i>
+                                    </a>
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                                        <i class="bi bi-github text-black m-2 rounded-circle fs-1"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto-contenedor position-relative">
+                            <img src="imagenes/proyecto4.png" alt="" class="imagen-proyecto w-100 h-100 d-block p-2 rounded-3">
+                            <div class="top-50 start-50 translate-middle position-absolute text-center overlay">
+                                <p class="mb-0 fw-bold fs-4">Proyecto 4</p>
+                                <div class="mt-2">
+                                    <a href="" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                                        <i class="bi bi-laptop text-black m-2 rounded-circle fs-1"></i>
+                                    </a>
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                                        <i class="bi bi-github text-black m-2 rounded-circle fs-1"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto-contenedor position-relative">
+                            <img src="imagenes/proyecto5.png" alt="" class="imagen-proyecto w-100 h-100 d-block p-2 rounded-3">
+                            <div class="top-50 start-50 translate-middle position-absolute text-center overlay">
+                                <p class="mb-0 fw-bold fs-4">Proyecto 5</p>
+                                <div class="mt-2">
+                                    <a href="" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                                        <i class="bi bi-laptop text-black m-2 rounded-circle fs-1"></i>
+                                    </a>
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                                        <i class="bi bi-github text-black m-2 rounded-circle fs-1"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto-contenedor position-relative">
+                            <img src="imagenes/proyecto6.png" alt="" class="imagen-proyecto w-100 h-100 d-block p-2 rounded-3">
+                            <div class="top-50 start-50 translate-middle position-absolute text-center overlay">
+                                <p class="mb-0 fw-bold fs-4">Proyecto 6</p>
+                                <div class="mt-2">
+                                    <a href="" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                                        <i class="bi bi-laptop text-black m-2 rounded-circle fs-1"></i>
+                                    </a>
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                                        <i class="bi bi-github text-black m-2 rounded-circle fs-1"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>               
+                </div>  
+            </div>
+            <a href="" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                <button type="button" class="btn btn-dark text-capitalize d-block mx-auto">conoce mas proyectos <i class="bi bi-arrow-right-circle"></i></button>
+            </a>
+        </section>
+        <section class="articulos justify-content-start">
+            <h2>Articulos</h2>
+            <div class="card">
+                <div class="card-header fw-bold">
+                  Mas Reciente
+                </div>
+                <ul class="list-group list-group-flush">
+                    <a href="" target="_blank" class="text-decoration-none">
+                        <li class="list-group-item text-capitalize">La nueva generacion de IA - Ricard chirad 2019</li>
+                    </a>
+                    <a href="" target="_blank" class="text-decoration-none">
+                        <li class="list-group-item text-capitalize">Evolucion de los caracteres en paginas web - falco Henrique</li>
+                    </a>
+                    <a href="" target="_blank" class="text-decoration-none">
+                        <li class="list-group-item text-capitalize">Construccion de IA en universidades de la costa - Angel En la americana</li>
+                    </a>
+                    <a href="" target="_blank" class="text-decoration-none">
+                        <li class="list-group-item text-capitalize">crean nueva universidad de desarrollador integral en la tecnologia - barranquilla 2018</li>
+                    </a>
+                    <a href="" target="_blank" class="text-decoration-none">
+                        <li class="list-group-item text-capitalize">Lector de mentes y ideas para teclados y nuevas generaicones de computadores - aproximadamente 2034</li>
+                    </a>
+                    <a href="" target="_blank" class="text-decoration-none">
+                        <li class="list-group-item text-capitalize">gafas de realidad virtual portables nuevas quest4meta - 2030</li>
+                    </a>
+                </ul>
+              </div>
+              <a href="" target="_blank">
+                  <button type="button" class="btn btn-dark fw-bold text-capitalize">Ver mas articulos <i class="bi bi-arrow-right-circle"></i></button>
+              </a>
+        </section>
+        <section id="testigos" class="testimonios text-black">
+            <h2>Testimonios</h2>
+            <h3>EStos son algunos testimonios de mi jefes de trabajo</h3>
+            <div id="testimonios-carusel" class="carousel carousel-dark slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="container">
+                        <img src="imagenes/cliente1.svg" alt="" class="testimonio-imagen rounded-circle">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem a, illum accusamus, nesciunt mollitia iure enim labore quibusdam soluta quo nemo beatae? Sunt, qui sint.</p>
+                        <div class="testimonio-info fw-bold text-center mb-0">
+                            <p class="fs-4">Asa Griggs Candler</p>
+                            <p class="fs-5 text-secondary">Empresa Coca-Cola.</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container">
+                        <img src="imagenes/cliente2.svg" alt="" class="testimonio-imagen rounded-circle">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem a, illum accusamus, nesciunt mollitia iure enim labore quibusdam soluta quo nemo beatae? Sunt, qui sint.</p>
+                        <div class="testimonio-info fw-bold text-center mb-0">
+                            <p class="fs-4">Phil Knight</p>
+                            <p class="fs-5 text-secondary">Empresa nike.</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container">
+                        <img src="imagenes/cliente3.svg" alt="" class="testimonio-imagen rounded-circle">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem a, illum accusamus, nesciunt mollitia iure enim labore quibusdam soluta quo nemo beatae? Sunt, qui sint.</p>
+                        <div class="testimonio-info fw-bold text-center mb-0">
+                            <p class="fs-4">Larry Page</p>
+                            <p class="fs-5 text-secondary">Empresa Google.</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carusel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                  </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carusel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">siguiente</span>
+                </button>
+              </div>
+        </section>
+        <section id="contactame" class="contacto text-white bg-dark">
+            <div class="container">
+                <div class="container text-center d-flex justify-content-evenly rectangulo">
+                    <div class="row">
+                        <div class="col-12 col-md-4 seccion-titulo">
+                            ¡Hablemos!
+                        </div>
+                        <div class="col-12 col-md-4 description">
+                            Contactame para inicar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad. 
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <a href="mailto:sanchezsangeljesus@gmail.com">
+                                <button type="button">
+                                    Contacto
+                                    <i class="bi bi-envelope-check-fill"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="bg-dark text-white d-flex flex-column align-items-center justify-content-center">
+            <img src="imagenes/icono-blanco.svg" alt="" class="footer-logo">
+            <p class="text-center footer-texto">Aprendo y creo todos los días.<br> Creemos un proyecto juntos.</p>
+            <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+                <a href="tuiter" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="yutu" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-youtube"></i>
+                </a>
+                <a href="gija" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="linkedin" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="intagran" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+            <div class="text-center derechos-de-author">Creado por Angel Sanchez (2023) &#169;</div>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<!-- C:\Users\victor\Desktop\all_wed\practica de bootstrap 5 -->
+</html>
